@@ -19,7 +19,6 @@ Welcome to the **Silver Spoon Restaurant** frontend website — a stylish and fu
 - **HTML5**
 - **CSS3**
 - **JavaScript**
-- *(Add any libraries or frameworks used, e.g., Bootstrap, Tailwind CSS)*
 
 ---
 ## 🔧 How to Use
@@ -38,10 +37,8 @@ This project was created as part of my journey to improve my frontend developmen
 ## 📬 Contact
 
 Have feedback or want to collaborate?  
-Reach out via [your email] or [your LinkedIn/GitHub profile link].
+Reach out via bikomaster9459@gmail,com
 
 ---
 
-## 📄 License
 
-This project is open source and available under the [MIT License](LICENSE).
