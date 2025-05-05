@@ -1,0 +1,836 @@
+hr {
+
+    margin: 100px 0px;
+    background-color: #343a40;
+    
+
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+/* -------------------------------------------------------Body Section --------------------------------------------------------------------
+In this Section i have covered all the css styling of Body section.----------------------------------------------------*/
+
+
+body {
+    margin: 0px;
+    width: 100%;
+    padding: 0px;
+    background: #343a40;
+    font-family: sans-serif;
+    overflow-x: hidden;
+   
+}
+
+body::before {
+    content: "";
+    background: url(images/main.jpg) no-repeat center center, center/cover;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    opacity: 0.3;
+    background-attachment: fixed;
+}
+
+/* -----------------------------------------------------------Navbar-Section --------------------------------------------------------------
+In this Section i have covered all the css styling of Navbar section.---------------------------------------------------------- */
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+nav ul {
+    display: flex;
+    
+}
+
+nav li {
+    list-style: none;
+    padding: 23px 23px;
+}
+
+
+#checkbtn{
+    position: absolute;
+    right: 0px;
+    font-size: 30px;
+    color: white;
+    display: none; 
+}
+
+#check{
+     display: none;
+}
+
+
+a {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 19px;
+    color: white;
+}
+
+ nav ul li a::after{
+    content: "";
+    width: 0%;
+    height: 3px;
+    
+    background: #f44336;
+    display: block;
+    transition: 0.5s;
+    margin: auto;
+    
+}
+
+nav ul li a:hover{
+    color: #f44336;
+}
+
+
+ nav ul li a:hover::after{
+    
+    width: 100%; 
+ }
+
+
+
+.logo {
+    height: 125px;
+    width: 125px;
+
+}
+
+
+#Home {
+    color: #ff214f;
+}
+
+
+
+#Components {
+    background-color: #ff214f;
+    display: block;
+    color: white;
+    padding: 8px;
+    position: relative;
+    bottom: 8px;
+    border-radius: 2px;
+    margin-top: 2px;
+
+
+}
+
+
+
+/* ----------------------------------------------------------------Hero-Section -----------------------------------------------------------
+In this Section i have covered all the css styling of Hero section.------------------------------------------------------------------------*/
+
+.Hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 435px;
+    margin-top: 31px;
+    color: white;
+
+}
+
+.Hero h1 {
+
+    color: white;
+    font-size: 5.5rem;
+    font-weight: 700;
+    margin-bottom: -27px
+}
+
+.Hero h2 {
+    color: white;
+    font-size: 3.5rem;
+    font-weight: 300px;
+}
+
+#Gallary {
+    margin-right: 68px;
+    padding: 12px;
+    background-color: #ff214f;
+}
+
+
+/* ------------------------------------------------------About-us Section------------------------------------------------------------------
+In this Section i have covered all the css styling of about-us section. */
+
+.about-us img {
+    position: relative;
+    bottom: 96px;
+    float: left;
+}
+
+.aboutus-content {
+    position: relative;
+    bottom: 87px;
+    left: 40px;
+    color: white;
+}
+
+.aboutus-content h2 {
+    font-size: 2.5rem;
+}
+
+.aboutus-content p {
+    font-size: 1rem;
+    line-height: 1.5;
+    height: 1000px;
+    margin-right: 82px;
+}
+
+
+/* -----------------------------------------------------------------------Menu section------------------------------------------------------
+In this Section i have covered all the css styling of Menu section.-------------------------------------------------------------------- */
+
+.menu h1 {
+    font-size: 4rem;
+    text-align: center;
+    color: white;
+    margin-bottom: 25px;
+    font-weight: 500;
+}
+
+
+
+.all-images{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(3,1fr);
+}
+
+
+
+
+.images-x {
+    height: 378.200px;
+    width: 378.200px;
+    box-shadow: inset 0px 0px 2px 0px #80808030;
+    content-visibility: hidden;
+    transform: scale(1);
+    
+    transition: box-shadow 1s,transform 1s ;
+    
+    
+}
+
+.images-x:hover{
+    box-shadow: inset 0px 379px 2px 0px #ad0b0b30;
+    content-visibility: visible;
+    transform: scale(1.1);
+  
+}
+
+
+
+.images-x p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 101px;
+    color: #000000;
+    cursor: pointer;
+}
+
+
+
+.Images1{
+background: url(Images/gallary-1.jpg) no-repeat ;
+background-position: center;
+background-size: cover;
+
+
+}
+.Images2{
+background: url(Images/gallary-2.jpg  );
+background-position: center;
+background-size: cover;
+}
+
+.Images3{
+background: url(Images/gallary-3.jpg  );
+background-position: center;
+background-size: cover;
+}
+.Images4{
+background: url(Images/gallary-4.jpg  );
+background-position: center;
+background-size: cover;
+}
+.Images5{
+background: url(Images/gallary-5.jpg  );
+background-position: center;
+background-size: cover;
+}
+.Images6{
+background: url(Images/gallary-6.jpg  );
+background-position: center;
+background-size: cover;
+}
+.Images7{
+background: url(Images/gallary-7.jpg );
+background-position: center;
+background-size: cover;
+}
+.Images8{
+background: url(Images/gallary-8.jpg  );
+background-position: center;
+background-size: cover;
+}
+.Images9{
+background: url(Images/gallary-9.jpg  );
+background-position: center;
+background-size: cover;
+}
+.Images10{
+background: url(Images/gallary-10.jpg  );
+background-position: center;
+background-size: cover;
+}
+.Images11{
+background: url(Images/gallary-11.jpg );
+background-position: center;
+background-size: cover;
+}
+.Images12{
+background:url(Images/gallary-12.jpg);
+background-position: center;
+background-size: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ----------------------------------------------------------------Book-a-Table section----------------------------------------------------
+In this Section i have covered all the css styling of Book-a-Table section. */
+
+
+.Book-A-Table {
+    margin: 27px 0px;
+    padding: 0px 35px;
+    position: relative;
+    top: -57px;
+}
+
+.Book-A-Table::before {
+    content: "";
+    background: url(Images/book-table-img.jpg) center, center, center/cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    opacity: .2;
+    background-attachment: fixed;
+
+}
+
+.Book-A-Table h1 {
+    text-align: center;
+    font-size: 4rem;
+    color: white;
+    padding-top: 84px;
+    font-weight: 500;
+
+
+}
+
+form {
+    margin: 44px 0px 76px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Book-A-Table form input {
+    width: 349px;
+    height: 57px;
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+}
+
+.Form-2{
+    font-size: 25px;
+}
+
+.Book-A-Table form input::placeholder {
+    color: white;
+    font-size: 1rem;
+    font-weight: 100;
+    padding-left: 8px;
+}
+
+.Book-A-Table form input:focus {
+    border: solid 5px #ff214f;
+
+}
+
+#Table {
+
+    padding: 12px;
+    background-color: #ff214f;
+    margin-left: 643px;
+    display: inline-block;
+    margin-bottom: 131px;
+
+}
+
+
+
+/* ----------------------------------------------------------------Blog-section----------------------------------------------------
+In this Section i have covered all the css styling of Blog section. */
+
+.main-images {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    align-items: center;
+    width: 100%;
+}
+
+.Blog-images {
+    height: 503px;
+    width: 474.788px;
+    border: 1px solid #495057;
+    text-align: center;
+}
+
+.Blog-i {
+    height: 262px;
+    width: 474px;
+}
+
+.Blog-images a {
+    display: inline-block;
+    font-size: 28px;
+    font-weight: 700;
+    padding: 12px 23px;
+    background-color: #ff214f;
+    margin-top: 21px;
+}
+
+.Blog-h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 4.2rem;
+    font-weight: 400;
+}
+
+
+
+/* ----------------------------------------------------------------Review-section----------------------------------------------------
+In this Section i have covered all the css styling of Review section. */
+
+.Review {
+    color: white;
+    text-align: center;
+    margin: 154px 0px;
+}
+
+.main-Review {
+    display: flex;
+
+}
+
+.main-Review h1 {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.main-Review span {
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: #bac4ce;
+}
+
+.Review-div {
+    border: 1px solid #495057;
+    margin: 0px 15px 0px 21px;
+    height: 226px;
+}
+
+#h1-Review {
+    display: flex;
+    justify-content: center;
+    font-size: 5.2rem;
+    font-weight: 200;
+
+}
+
+
+
+/* ----------------------------------------------------------------Contact-Us-section----------------------------------------------------
+In this Section i have covered all the css styling of Contact-us section. */
+
+.Contact-us {
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 9px 79px 9px;
+    text-align: center;
+
+    color: white;
+}
+
+.Contact-us h1 {
+    font-size: 1.85rem;
+    font-weight: 500;
+}
+
+.Contact-us p {
+    font-size: 1rem;
+    font-weight: 200;
+    color: #bac4ce;
+}
+
+/* ----------------------------------------------------------------Copyright-section----------------------------------------------------
+In this Section i have covered all the css styling of Copyright section. */
+
+.Copyright {
+    color: white;
+    font-size: 1rem;
+    text-align: center;
+    position: relative;
+    top: -64px;
+    font-weight: 500;
+}
+
+.Copyright span {
+    color: #ff214f;
+
+
+}
+
+/* media query   For ipad------------------------------------------------ ------------------------------------------------------------------------------*/
+
+@media(max-width:895px) {
+    
+html{
+    font-size: 10px;
+}
+   
+
+
+#checkbtn{
+    display: block;
+    z-index: 2;
+    top: 0px;
+}
+
+
+nav {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    background-color: #343a40;
+    position: relative;
+    left: -100rem;
+    top: 0;
+    z-index: 1;
+    
+    margin: 0;
+   
+}
+
+#check:checked~nav{
+    left: 0;
+}
+ nav ul{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    
+
+ }
+nav ul li{
+    text-align: center;
+}
+
+ nav ul li a{
+    display: inline-block;
+ }
+
+ #Home{
+    display: inline-block;
+    margin-top: 9.3rem;
+ }
+
+ .logo{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    left: 41%;
+   
+ }
+
+
+ #Components{
+    display: inline-block;
+ }
+
+ body::before {
+    content: "";
+    background: url(images/main.jpg) no-repeat center center, center/cover;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    opacity: 0.3;
+ }
+
+.Hero{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    bottom: 1.2rem;
+    text-align: center;
+    
+
+}
+
+.Hero h1{
+font-size: 12.2rem;
+
+}
+
+
+.Hero h2{
+    font-size: 4.2rem;
+}
+
+
+#Gallary{
+    text-align: center;
+    margin-left: 2.2rem;
+    margin: 0;
+}
+
+
+.about-us {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.about-us img{
+    height: 40%;
+    width: 100%;
+    position: relative;
+    top: 0rem;
+    left: 0;
+    margin-bottom: 1.5rem;
+}
+
+.aboutus-content{
+  position: relative;
+  top: 0;
+}
+.aboutus-content h2{
+  
+    font-size: 6.5rem;
+    text-align: center;
+    padding-top: 1.2rem;
+
+}
+
+.aboutus-content p{
+    font-size: 1.5rem;
+    text-align: left;
+}
+
+.menu h1{
+    font-size:6.5rem ;
+}
+
+.all-images{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(6,1fr);
+}
+
+.Book-A-Table h1{
+    font-size: 6.5rem;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 2.1rem;
+}
+form input{
+    padding: 1.2rem;
+    font-size: 2.2rem;
+}
+
+.Book-A-Table{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+
+.Book-A-Table form input::placeholder {
+    color: white;
+    font-size: 2.2rem;
+    font-weight: 100;
+    padding-left: 8px;
+
+}
+
+#Table{
+    position: relative;
+    bottom: 5.2rem;
+    margin: 0;
+}
+
+.Blog-h1{
+    font-size: 6.5rem;
+    text-align: center;
+}
+
+.main-images {
+    display: flex;
+    flex-direction: column;
+
+    color: white;
+    align-items: center; 
+    width: 100%;
+}
+
+.Blog-images {
+padding: 1.2rem;
+width: 90%;
+height: 100%;
+display: flex;
+flex-direction: column;
+
+}
+
+
+.Blog-images h1{
+    font-size: 2.2rem;
+}
+
+.Blog-images p{
+    font-size: 1.5rem;
+   
+}
+
+.Blog-images img{
+    width: 100%;
+    height: 100%;
+}
+
+.main-Review{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-Review h1{
+    font-size: 3.2rem;
+}
+
+.main-Review span{
+    font-size: 2.2rem;
+}
+
+.main-Review p{
+    font-size: 1.5rem;
+    text-align: left;
+    display: inline-block;
+    width: 90%;
+    height: 90%;
+}
+
+.h1-review{
+    font-size: 6.5rem;
+    text-align: center;
+}
+
+.Contact-us{
+    display: flex;
+    position: relative;
+    top: 0;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+.Contact-us h1{
+    font-size: 4.2rem;
+}
+.Contact-us p{
+    font-size: 2.2rem;
+    cursor: pointer;
+}
+    
+.Copyright{
+    display: flex;
+}
+
+.Copyright p{
+    font-size: 2.2rem;
+}
+
+
+
+}
