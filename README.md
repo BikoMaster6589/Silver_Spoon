@@ -22,15 +22,27 @@ Welcome to the **Silver Spoon Restaurant** frontend website — a stylish and fu
 - *(Add any libraries or frameworks used, e.g., Bootstrap, Tailwind CSS)*
 
 ---
-
-## 📷 Screenshots
-
-*(Optional – Add images of your website here to show off the UI)*
-
----
-
 ## 🔧 How to Use
 
 1. Clone the repository:
    ```bash
    git clone https://github.com/your-username/silver-spoon-restaurant.git
+---
+
+## 🎯 Purpose
+
+This project was created as part of my journey to improve my frontend development skills by working on real-world-style website templates.
+
+---
+
+## 📬 Contact
+
+Have feedback or want to collaborate?  
+Reach out via [your email] or [your LinkedIn/GitHub profile link].
+
+---
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
